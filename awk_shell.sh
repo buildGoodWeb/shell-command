@@ -10,6 +10,7 @@
 echo 'show passwd name and shell:'
 echo '--------------------------'
 cat /etc/passwd | awk -F ':' '{print $1"\t"$7}'
+# or awk -F '{print $1"\t"$7}' /etc/passwd 
 echo '-----------------------------'
 
 
