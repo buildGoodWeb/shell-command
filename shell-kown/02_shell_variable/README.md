@@ -47,3 +47,6 @@ export CLASSPATH=/JAVA_HOME/lib;$JAVA_HOME/jre/lib
 ### 3. 直接运行`export`命令定义变量
 > 格式： "export 变量名=变量值"
 为临时变量，关闭shell后就失效
+
+## shell变量应用
+变量只有在被声明、复制、UNSET、EXPORT或是在变量代表一个信号（signal）后，才会真正出现在脚本中。
